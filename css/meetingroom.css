@@ -8,3 +8,62 @@
   height: 750px;
   margin-top: 100px;
 }
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 5px;
+  width: auto;
+  max-width: 1000px;
+  margin: 5px auto;
+  height: 190px;
+  margin-top: 25px;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	  	.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 5px;
+  width: auto;
+  max-width: 1000px;
+  margin: 5px auto;
+  height: 190px;
+  margin-top: 25px;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  	  	.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 5px;
+  width: auto;
+  max-width: 1000px;
+  margin: 5px auto;
+  height: 190px;
+  margin-top: 25px;
+}
+
+}
